@@ -1,0 +1,6 @@
+bases:
+  - ../../../base/emojivoto-web
+namespace: dev-emojivoto
+configMapGenerator:
+- name: emojivoto-web-env
+  env: .env

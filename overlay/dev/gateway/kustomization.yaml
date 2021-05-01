@@ -1,0 +1,5 @@
+bases:
+  - ../../../base/gateway
+namespace: dev-emojivoto
+patchesStrategicMerge:
+  - ./emojivoto-web-ingress.yaml

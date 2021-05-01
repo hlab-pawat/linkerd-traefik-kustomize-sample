@@ -1,0 +1,6 @@
+bases:
+  - ../../../base/emojivoto-bot
+namespace: dev-emojivoto
+configMapGenerator:
+- name: emojivoto-bot-env
+  env: .env
